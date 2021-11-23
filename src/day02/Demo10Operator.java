@@ -27,6 +27,8 @@ public class Demo10Operator {
         // 判断a > b是否成立，如果成立将a的值赋值给max；如果不成立将b的值赋值给max。二者选其一
         int max = a > b ? a : b; // 最大值的变量
         System.out.println("最大值：" + max); // 20
+        Integer a1 = 1;
+        System.out.println(a1 == null ? "":a1);
 
         // int result = 3 > 4 ? 2.5 : 10; // 错误写法！
 

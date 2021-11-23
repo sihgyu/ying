@@ -18,9 +18,15 @@ public class Demo05Plus {
 
         System.out.println("Hello" + "World"); // HelloWorld
 
+        String orderId= "123";
+        System.out.println("支付失败 payOrderId" + orderId);
+
         String str2 = "Java";
         // String + int --> String
         System.out.println(str2 + 20); // Java20
+
+        int a = 100;
+        System.out.println(a + "");
 
         // 优先级问题
         // String + int + int

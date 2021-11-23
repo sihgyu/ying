@@ -24,6 +24,7 @@ public class Demo02DataType {
         int num2 = (int) 6000000000L;
         System.out.println(num2); // 1705032704
 
+
         // double --> int，强制类型转换
         int num3 = (int) 3.99;
         System.out.println(num3); // 3，这并不是四舍五入，所有的小数位都会被舍弃掉  也就是所谓的截断
@@ -43,6 +44,7 @@ public class Demo02DataType {
         // byte + short --> int + int --> int
         // int强制转换为short：注意必须保证逻辑上真实大小本来就没有超过short范围，否则会发生数据溢出
         // short 取值范围 -32768~32767
+        // int + int -- > int
         short result2 = (short) (num4 + num6);
         System.out.println(result2); // 100
     }

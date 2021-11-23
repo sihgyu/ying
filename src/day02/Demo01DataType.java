@@ -26,6 +26,7 @@ public class Demo01DataType {
         // 左边是double类型，右边是float类型，左右不一样
         // float --> double，符合从小到大的规则
         // 也发生了自动类型转换
+        float a = 12.2f;
         double num2 = 2.5F;
         System.out.println(num2); // 2.5
 

@@ -20,6 +20,7 @@ package day02;
 public class Demo07Operator {
     public static void main(String[] args) {
         int a = 10;
+        a += 1; // a = a +1;
         // 按照公式进行翻译：a = a + 5
         // a = 10 + 5;
         // a = 15;

@@ -6,7 +6,7 @@ public static void 方法名称() {
 	方法体
 }
 
-方法名称的命名规则和变量一样，使用小驼峰。
+方法名称的命名规则和变量一样，使用小驼峰。wangYing
 方法体：也就是大括号当中可以包含任意条语句。
 
 注意事项：
@@ -23,18 +23,23 @@ public class Demo11Method {
     public static void main(String[] args) {
         farmer(); // 调用农民的方法
         seller(); // 调用小商贩的方法
-        cook(); // 调用厨子的方法
+
+        Demo11Method m = new Demo11Method();
+        m.cook();
         me(); // 调用我自己的方法
     }
 
     // 厨子
-    public static void cook() {
+    public  void cook() {
         System.out.println("洗菜");
         System.out.println("切菜");
         System.out.println("炒菜");
         System.out.println("装盘");
     }
 
+    public  static void eat(String a,String b){
+        System.out.println("吃" +a);
+    }
     // 我
     public static void me() {
         System.out.println("吃");
@@ -42,6 +47,7 @@ public class Demo11Method {
 
     // 小商贩
     public static void seller() {
+        eat("包子","");
         System.out.println("运输到农贸市场");
         System.out.println("抬高价格");
         System.out.println("吆喝");
