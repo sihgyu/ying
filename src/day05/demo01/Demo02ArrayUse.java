@@ -10,7 +10,7 @@ package day05.demo01;
 索引值：就是一个int数字，代表数组当中元素的编号。
 【注意】索引值从0开始，一直到“数组的长度-1”为止。
  */
-public class Demo04ArrayUse {
+public class Demo02ArrayUse {
 
     public static void main(String[] args) {
         // 静态初始化的省略格式

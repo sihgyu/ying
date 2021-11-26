@@ -11,7 +11,7 @@ package day05.demo01;
 注意事项：
 静态初始化其实也有默认值的过程，只不过系统自动马上将默认值替换成为了大括号当中的具体数值。
  */
-public class Demo05ArrayUse {
+public class Demo03ArrayUse {
 
     public static void main(String[] args) {
         // 动态初始化一个数组
