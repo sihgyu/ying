@@ -67,6 +67,7 @@ public class Demo01Array {
 
         Integer[] integers = new Integer[3];
         integers[0] = 1;
+
     }
 
 }
